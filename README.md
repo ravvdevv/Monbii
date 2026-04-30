@@ -1,8 +1,8 @@
-# Monbii 🌱
+# <img src="screenshots/icon.png" width="50" /> Monbii
 
 **A minimalist habit app where your companion grows with your consistency.**
 
-> Source code is private. This repository is a public showcase of the product, its design, and technical thinking.
+> Source code is private. This repository showcases the product, system design, and technical decisions behind Monbii.
 
 ---
 
@@ -14,38 +14,47 @@
 
 ## Preview
 
-| Home | Habits | Companion | Battle |
-|------|--------|-----------|--------|
-| ![Home](screenshots/home.png) | ![Habits](screenshots/habits.png) | ![Companion](screenshots/companion.png) | ![Battle](screenshots/battle.png) |
-
-> Screenshots coming soon. See [`screenshots/`](./screenshots/) for details.
+| Home | Habits | Companion | Battle | Stats |
+|------|--------|-----------|--------|-------|
+| ![Home](screenshots/home.jpg) | ![Habits](screenshots/habits.jpg) | ![Companion](screenshots/companion.jpg) | ![Battle](screenshots/battle.jpg) | ![Stats](screenshots/stats.jpg) |
 
 ---
 
 ## What is Monbii?
 
-Most habit apps treat consistency as a number. Monbii treats it as a relationship.
+Most habit apps reduce consistency to numbers.
 
-Your companion reacts to what you do — or don't do. Complete your habits and it grows. Miss them and it shows. The goal is to make habits feel alive instead of mechanical.
+Monbii turns it into a feedback system.
 
-**Core loop:**
+Your companion reflects your behavior in real time:
+- stay consistent → it grows and evolves  
+- miss habits → it reacts and weakens  
 
-- You set habits that matter to you
-- Your companion's state reflects your consistency
-- Streaks drive evolution; neglect triggers visible reactions
-- A battle system adds a layer of engagement tied to your real-world progress
+The goal is simple:  
+**make habits feel alive instead of mechanical.**
+
+---
+
+## Core Loop
+
+1. Set habits that matter  
+2. Complete them → gain progression  
+3. Companion evolves based on consistency  
+4. Miss habits → visible negative feedback  
+5. Periodic battles reflect your real performance  
 
 ---
 
 ## Features
 
-- **Companion system** — A character that evolves with your habit streak
-- **Habit tracking** — Clean, low-friction daily check-ins
-- **Progression & evolution** — Companion grows through defined stages
-- **Battle system** — Companion strength is tied to your consistency
-- **Notifications** — Gentle reminders that feel contextual, not nagging
+- Companion system — evolves based on your streak and behavior  
+- Habit tracking — fast, low-friction daily interactions  
+- Progression & evolution — visible growth over time  
+- Battle system — performance-based engagement loop  
+- Stats dashboard — tracks consistency and progression  
+- Smart notifications — contextual, not spammy  
 
-See [`docs/features.md`](./docs/features.md) for a full breakdown.
+More in [`docs/features.md`](./docs/features.md)
 
 ---
 
@@ -54,23 +63,31 @@ See [`docs/features.md`](./docs/features.md) for a full breakdown.
 | Layer | Technology |
 |---|---|
 | Frontend | React + Capacitor |
-| State management | Zustand |
-| Backend / cloud | Supabase / Lovable Cloud |
-| Animations | Lottie |
+| State | Zustand |
+| Backend | Supabase / Lovable Cloud |
+| Animation | Lottie |
 
-High-level architecture is documented in [`docs/architecture.md`](./docs/architecture.md).
+Architecture: [`docs/architecture.md`](./docs/architecture.md)
 
 ---
 
 ## Documentation
 
-- [`docs/overview.md`](./docs/overview.md) — Problem, purpose, and behavioral design
-- [`docs/architecture.md`](./docs/architecture.md) — System architecture (high-level)
-- [`docs/features.md`](./docs/features.md) — Feature breakdown
-- [`docs/roadmap.md`](./docs/roadmap.md) — Upcoming improvements
+- [`docs/overview.md`](./docs/overview.md) — problem & behavioral design  
+- [`docs/architecture.md`](./docs/architecture.md) — system design  
+- [`docs/features.md`](./docs/features.md) — features  
+- [`docs/roadmap.md`](./docs/roadmap.md) — upcoming work  
+
+---
+
+## Notes
+
+This is a product showcase repository.
+
+The full source code is intentionally private.
 
 ---
 
 ## License
 
-All Rights Reserved. See [`LICENSE`](./LICENSE).
+All Rights Reserved.
