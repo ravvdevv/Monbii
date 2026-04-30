@@ -1,4 +1,6 @@
-# <img src="screenshots/icon.png" width="50" /> Monbii
+# <img src="screenshots/icon.png" width="28" /> Monbii
+
+<img src="screenshots/banner.png" width="100%" />
 
 **A minimalist habit app where your companion grows with your consistency.**
 
@@ -9,7 +11,6 @@
 ## Live Demo
 
 [**monbii.vercel.app →**](https://monbii.vercel.app/)
-
 ---
 
 ## Preview
